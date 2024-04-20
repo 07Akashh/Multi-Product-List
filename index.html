@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Multi Product List</title>
+
+</head>
+
+<body>
+    <h1 class="heading">SELECT YOUR CHOICE</h1>
+    
+    <div class="productBtn">
+        <button onclick="fetchProducts('Men')" id="menButton"><img class="icon" src="fluent-emoji-high-contrast_boy.svg" alt="men"> Men</button>
+        <button onclick="fetchProducts('Women')"><img class="icon" src="fluent-emoji-high-contrast_girl.svg" alt="women"> Women</button>
+        <button onclick="fetchProducts('Kids')"><img class="icon" src="Vector.svg" alt="kids"> Kids</button>
+    </div>
+
+    <div class="container">
+        <div id="product-container">
+            <div class="product-card"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
