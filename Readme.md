@@ -36,6 +36,11 @@ Multi Product List/
 ## Usage
 
 1. Clone the repository to your local machine.
+
+```bash
+git clone https://github.com/07Akashh/Multi-Product-List.git
+```
+   
 2. Open the `index.html` file in a web browser.
 3. Click on the buttons labeled "Men", "Women", or "Kids" to view products in the respective categories.
 4. Scroll through the list of products and view their details.
